@@ -8,11 +8,11 @@ gsap.to("#main", {
     pin: "#main",
     scrub: true,
     // markers: true,
-    duration: 0.5,
   },
-  skewX: 5,
-  rotateX: 20,
+  // skewX: 5,
+  transform: "rotate(-20deg)",
   opacity: 0.5,
+  duration: 10,
 });
 gsap.to("h1", {
   scrollTrigger: {
@@ -33,7 +33,7 @@ gsap.to("h1", {
   },
 });
 gsap.to("#row1", {
-  marginTop: -100,
+  marginTop: -120,
   scrollTrigger: {
     // markers: true,
     scrub: 1,
@@ -48,28 +48,28 @@ gsap.to("img", {
 });
 
 gsap.to("#row2", {
-  marginTop: -100,
+  marginTop: -120,
   scrollTrigger: {
     // markers: true,
     scrub: 1,
   },
 });
 gsap.to("#row3", {
-  marginTop: -100,
+  marginTop: -120,
   scrollTrigger: {
     // markers: true,
     scrub: 1,
   },
 });
 gsap.to("#row4", {
-  marginTop: -100,
+  marginTop: -120,
   scrollTrigger: {
     // markers: true,
     scrub: 1,
   },
 });
 gsap.to("#row5", {
-  marginTop: -100,
+  marginTop: -120,
   scrollTrigger: {
     // markers: true,
     scrub: 1,
